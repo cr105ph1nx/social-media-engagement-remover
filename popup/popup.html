@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Social Medial Engagement Remover</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+  </head>
+  <body>
+    <div class="body">
+      <div class="tabs top">
+        <button id="btn-home">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"
+            />
+          </svg>
+          Home
+        </button>
+        <a href="https://github.com/cr105ph1nx" target="_blank">
+          Github
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+          >
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+            />
+          </svg>
+        </a>
+      </div>
+
+      <div id="content" class="content">
+        <!-- HOME TAB -->
+        <div id="welcome-text">
+          Welcome to Social Media Engagement Remover! <br />You can start by
+          selecting any of the tabs below.
+        </div>
+
+        <!-- COMING SOON TABS -->
+        <div id="youtube" class="tab-content">Youtube Coming Soon...</div>
+        <div id="instagram" class="tab-content">Instagram Coming Soon...</div>
+        <div id="facebook" class="tab-content">Facebook Coming Soon...</div>
+
+        <!-- TIKTOK TAB -->
+        <div id="tiktok" class="tab-content">
+          <div class="tiktok">
+            <div id="instructions" class="instructions">
+              1. Login to your TikTok account<br />
+              2. Go to your profile "tiktok.com/@username"<br />
+              3. Select an operation from the dropdown menu below<br />
+              4. Click on "Start Removal"<br />
+              5. Keep the page open
+            </div>
+
+            <select name="operation" id="tiktok-op-type">
+              <option value="">Select Operation</option>
+              <option value="tiktok-likes">Remove All Likes</option>
+              <option value="tiktok-favorites">Remove All Favorites</option>
+              <option value="tiktok-reposts">Remove All Reposts</option>
+            </select>
+
+            <button id="tiktok-start" class="start-removal">
+              Start Removal
+            </button>
+
+            <div class="alert">
+              Developers can inspect the console for more details
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tabs bottom">
+        <button class="tab" id="btn-tiktok">TikTok</button>
+        <button class="tab" id="btn-youtube">YouTube</button>
+        <button class="tab" id="btn-instagram">Instagram</button>
+        <button class="tab" id="btn-facebook">Facebook</button>
+      </div>
+    </div>
+
+    <script src="../js/tiktok/submit.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

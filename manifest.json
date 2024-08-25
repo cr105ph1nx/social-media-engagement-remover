@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Social Media Engagement Remover",
+  "description": "A Chrome extension to remove all social media engagement.",
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": ["storage", "scripting", "activeTab"]
+}
