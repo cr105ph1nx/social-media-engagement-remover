@@ -65,7 +65,7 @@ const removeTiktokFavorites = async () => {
 
         nextVideoButton.click();
         console.log("Clicked the next favorite video.");
-      }, 2000);
+      }, 5000);
     } catch (error) {
       clearInterval(interval);
       stopScript(
