@@ -15,8 +15,11 @@ To install this extension, kindly follow these steps:
 ### For Non-Developers
 1. [Download the source code](https://github.com/cr105ph1nx/social-media-engagement-remover/archive/refs/heads/main.zip)
 2. Extract the downloaded zip file
-3. In your Chrome browser, navigate to [the extensions management page](chrome://extensions)
-4. Enable the `Developer Mode` switch on the top right corner of the page
+3. In your Chrome browser, navigate to the extensions management page by clicking on the `Extensions` icon on your browser's toolbar then on the `Manage extensions` button
+
+![manage extensions](./_screenshots/manage-extensions.png)
+
+4. On the Extensions Management page, enable the `Developer Mode` switch (it is found on the top right corner of the page)
 
 ![developer mode switch](./_screenshots/developer-mode.png)
 
